@@ -1,0 +1,102 @@
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.PageContent {
+	padding: 20px 15px 15px 15px;
+	margin: 0px 0px 0px 20px;
+	width: 740px;
+}
+
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000066;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000099;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000066;
+	text-decoration: underline;
+}
+p, td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.UtilityNav {
+	padding: 5px;
+}
+.MainNav {
+	padding: 5px 5px 5px 15px;
+}
+.BottomNav {
+	padding: 5px;
+}
+.BannerAdsPages {
+	padding: 15px;
+}
+.BannerAdsHome {
+	padding: 5px;
+}
+.ErrorMessage {
+	color: #FF0000;
+	text-decoration: none;
+}
+a.ErrorMessage:link, a.ErrorMessage:visited {
+	color: #FF0000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.TopBorder {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #99CCFF;
+}
+.BottomBorder {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #99CCFF;
+}
+
+.LeftBorder {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #99CCFF;
+}
+
+.RightBorder {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #99CCFF;
+}
+#AccountSubNav {
+	width:230px;
+	background-color:#E8E8E8;
+	padding:15px;
+}
+li {
+	margin-left: -15px;
+}

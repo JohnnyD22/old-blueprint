@@ -1,0 +1,15 @@
+<div class="utility-nav-wrapper">
+    	<div class="phone-icons-position" id="mobile-visible">
+        	<a href="#"><div class="contact-icon-mobile"></div></a>
+            <a href="#" onClick="showLayer('SearchBox')"><div class="search-icon-mobile"></div></a>
+            <a href="#" onClick="showLayer('MainNav')"><div class="mobile-menu"></div></a>
+      </div>
+        <ul class="utility-nav" id="SearchBox">
+          <li><form id="Form1" name="form1" method="post" action="">
+          <input name="textfield" type="text" class="utility-search-field" id="textfield" value="Search our site" onfocus="if(this.value == 'Search our site') { this.value = ''; }" />
+        	</form><div class="search-button" onClick="hideLayer('SearchBox')" id="mobile-visible">Search</div></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Vertex Exchange</a></li> 
+          <li><a href="#">MyVertex</a></li>
+        </ul>
+    </div> 
